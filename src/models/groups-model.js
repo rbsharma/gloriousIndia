@@ -45,21 +45,27 @@ export class StubGroupsData {
         groupA.entities = [entityA, entityB, entityC];
 
         let groupB: GroupModel = new GroupModel();
-        groupB.id = '0';
+        groupB.id = '1';
         groupB.description = `THIS IS GROUP B DESCRIPTION. IT GENERALLY IS 2 TO 3 LINES LONG BUT
                               IT MAY EXCEED EVEN 10 LINES DEPENDING ON THE GROUP TYPE!!`;
         groupB.title = 'GROUP B';
         //groupB.entities = new Array<EntityModel>()
         groupB.entities = [entityA, entityB, entityC];
 
-
+        let groupC: GroupModel = new GroupModel();
+        groupC.id = '2';
+        groupC.description = `THIS IS GROUP C DESCRIPTION. IT GENERALLY IS 2 TO 3 LINES LONG BUT
+                              IT MAY EXCEED EVEN 10 LINES DEPENDING ON THE GROUP TYPE!!`;
+        groupC.title = 'GROUP C';
+        //groupC.entities = new Array<EntityModel>()
+        groupC.entities = [entityA, entityB, entityC];
 
         //groupsObject;
         let groupsModel: GroupsModel = new GroupsModel();
         groupsModel.id = '0';
         groupsModel.title = 'GROUPS MODEL';
         groupsModel.description = 'THIS IS GROUPS ACCUMULATED DESCRIPTION. IT GENERALLY IS 2 TO 3 LINES LONG BUT IT MAY EXCEED EVEN 10 LINES DEPENDING ON THE GROUP APP TYPE!!';
-        groupsModel.groups = [groupA, groupB];
+        groupsModel.groups = [groupA, groupB, groupC];
 
         return groupsModel;
     }

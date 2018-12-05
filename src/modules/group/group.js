@@ -4,12 +4,14 @@ import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-nati
 import GroupHeader from './group-header';
 import EntityCard from '../entity/entity-card';
 import { GroupModel } from '../../models/groups-model';
+import globalStyles from '../../styles/app-style';
 
 export default class GroupComponent extends React.Component {
 
     static navigationOptions = ({ navigation }) => ({
         headerStyle: {
-            backgroundColor: '#e2804a',
+            //backgroundColor: '#e2804a',
+            backgroundColor: navigation.state.params.colorTheme,
         },
         headerTitleStyle: {
             flex: 1,
@@ -30,7 +32,7 @@ export default class GroupComponent extends React.Component {
             entityListView: null
         }
         this.params = this.props.navigation.state.params;
-        //console.log(this.params);
+        console.log(this.params);
         //console.log(this.state);
     }
 
@@ -50,7 +52,7 @@ export default class GroupComponent extends React.Component {
                     <TouchableOpacity activeOpacity={0.8} key={key}
                         onPress={() => {
                             this.props.navigation.navigate('entity',
-                                { entity: val, title:val.title })
+                                { entity: val, title: val.title })
                         }}>
                         <EntityCard keyval={key} val={val} />
                     </TouchableOpacity>
