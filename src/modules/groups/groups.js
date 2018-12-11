@@ -6,18 +6,8 @@ import { StubGroupsData, GroupsModel } from '../../models/groups-model';
 import globalStyles from '../../styles/app-style';
 export default class GroupsComponent extends React.Component {
     static navigationOptions = {
-        headerStyle: {
-            backgroundColor: '#e7b576',
-        },
-        headerTitleStyle: {
-            flex: 1,
-            textAlign: 'center',
-            fontWeight: '700',
-            fontSize: 26,
-            marginTop: 5,
-            color: 'white',
-            elevation: 10,
-        },
+        headerStyle: globalStyles.header,
+        headerTitleStyle: globalStyles.headerTitle,
         title: 'GLORIOUS INDIA'
     };
 
@@ -51,9 +41,9 @@ export default class GroupsComponent extends React.Component {
                 let _cardColor = '';
                 let _cardColorLeft = '';
                 switch (key % 3) {
-                    case 0: _cardColor = globalStyles.blueBg; _cardColorLeft = globalStyles.darkBlueBg; break;
-                    case 1: _cardColor = globalStyles.pinkBg; _cardColorLeft = globalStyles.darkPinkBg; break;
-                    case 2: _cardColor = globalStyles.greenBg; _cardColorLeft = globalStyles.darkGreenBg; break;
+                    case 0: _cardColor = globalStyles.bgBlue; _cardColorLeft = globalStyles.bgDarkBlue; break;
+                    case 1: _cardColor = globalStyles.bgPink; _cardColorLeft = globalStyles.bgDarkPink; break;
+                    case 2: _cardColor = globalStyles.bgGreen; _cardColorLeft = globalStyles.bgDarkGreen; break;
                     default: break;
                 }
                 return (
@@ -76,7 +66,7 @@ export default class GroupsComponent extends React.Component {
         return (
             <View style={styles.container}>
                 <ScrollView>
-                    <View style={styles.descriptionContainer}>
+                    <View style={globalStyles.descriptionContainer}>
                         <GroupsHeader val={this.state.groupsData} />
                     </View>
                     <View style={styles.groupsContainer}>
@@ -94,28 +84,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
-    },
-    descriptionContainer: {
-        //flex: 1,
-        //flexDirection: 'row',
-        //justifyContent: 'center',
-        //alignItems: 'center',
-        // margin: 10,
-        // paddingLeft: 10,
-        // paddingRight: 10,
-        elevation: 10,
-        //borderRadius: 0,
-        padding: 10,
-        marginBottom: 5,
-        //borderTopWidth: 10,
-        //borderRightWidth: 15,
-        //borderLeftWidth: 15,
-        //borderBottomWidth: 15,
-        borderColor: '#e4932d',
-        backgroundColor: '#e7b576',
-        height: 'auto',
-        minHeight: 200,
-        //borderBottom:20,
     },
     groupsContainer: {
         padding: 20,

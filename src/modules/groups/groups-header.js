@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import globalStyles from '../../styles/app-style';
 
 export default class GroupsHeaderComponent extends React.Component {
     constructor(props) {
@@ -9,7 +10,7 @@ export default class GroupsHeaderComponent extends React.Component {
     render() {
         return (
             <View>
-                <Text style={styles.descriptionText}>{this.props.val.description}</Text>
+                <Text style={globalStyles.descriptionContainerText}>{this.props.val.description}</Text>
             </View>
         )
     }
@@ -17,12 +18,6 @@ export default class GroupsHeaderComponent extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        
+
     },
-    descriptionText: {
-        padding: 5,
-        fontSize: 20,
-        color: '#fff',
-        fontWeight: '700',
-    }
 });

@@ -10,17 +10,9 @@ export default class GroupComponent extends React.Component {
 
     static navigationOptions = ({ navigation }) => ({
         headerStyle: {
-            //backgroundColor: '#e2804a',
             backgroundColor: navigation.state.params.colorTheme,
         },
-        headerTitleStyle: {
-            flex: 1,
-            textAlign: 'center',
-            fontWeight: '700',
-            fontSize: 26,
-            marginTop: 5,
-            color: 'white',
-        },
+        headerTitleStyle: globalStyles.headerTitle,
         title: `${navigation.state.params.title}`,
     });
 
@@ -29,7 +21,8 @@ export default class GroupComponent extends React.Component {
         this.state = {
             isGroupDataFetched: false,
             groupData: new GroupModel(),
-            entityListView: null
+            entityListView: null,
+            colorTheme: null
         }
         this.params = this.props.navigation.state.params;
         console.log(this.params);
@@ -38,7 +31,11 @@ export default class GroupComponent extends React.Component {
 
     componentDidMount() {
         if (this.params.groupData != null) {
-            this.setState({ groupData: this.params.groupData, isGroupDataFetched: true }, () => {
+            this.setState({
+                groupData: this.params.groupData,
+                isGroupDataFetched: true,
+                colorTheme: this.props.navigation.state.params.colorTheme
+            }, () => {
                 console.log(this.state);
                 this.CreateEntityListView();
             });
@@ -50,6 +47,7 @@ export default class GroupComponent extends React.Component {
             let _entityListView = this.state.groupData.entities.map((val, key) => {
                 return (
                     <TouchableOpacity activeOpacity={0.8} key={key}
+                        style={[styles.entityCard, { backgroundColor: this.state.colorTheme }]}
                         onPress={() => {
                             this.props.navigation.navigate('entity',
                                 { entity: val, title: val.title })
@@ -64,12 +62,15 @@ export default class GroupComponent extends React.Component {
 
     render() {
         return (
-            <View>
+            <View style={styles.container}>
                 <ScrollView>
-                    <View>
+                    <View style={[globalStyles.descriptionContainer,
+                    { backgroundColor: this.state.colorTheme }]}>
                         <GroupHeader val={this.state.groupData} />
                     </View>
-                    {this.state.entityListView ? this.state.entityListView : <Text>'Loading...'</Text>}
+                    <View style={styles.entityContainer}>
+                        {this.state.entityListView ? this.state.entityListView : <Text>'Loading...'</Text>}
+                    </View>
                 </ScrollView>
             </View>
         );
@@ -77,5 +78,23 @@ export default class GroupComponent extends React.Component {
 }
 
 const styles = StyleSheet.create({
-
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#F5FCFF',
+    },
+    entityContainer: {
+        padding: 20,
+    },
+    entityCard: {
+        marginTop: 30,
+        elevation: 10,
+        //borderRadius: 10,
+        //borderBottomLeftRadius: 10,
+        //borderBottomRightRadius:10,
+        padding: 10,
+        height: 'auto',
+        minHeight: 100,
+    },
 });
