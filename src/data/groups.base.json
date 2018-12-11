@@ -1,0 +1,27 @@
+{
+   "id":"",
+   "title":"",
+   "descrition":"",
+   "groups":[
+      {
+         "id":"",
+         "title":"",
+         "descrition":"",
+         "entities":[
+            {
+               "id":"",
+               "title":"",
+               "dob":"",
+               "dod":"",
+			   "imageUrl":"",
+			   "readMoreUrl":"",
+			   "alias":"",
+			   "organizations":"",
+			   "movement":"",
+			   "description":"",
+			   "quotes":""
+            }
+         ]
+      }
+   ]
+}

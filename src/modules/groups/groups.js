@@ -2,15 +2,17 @@ import React from 'react';
 import { StyleSheet, ScrollView, View, Text, TouchableOpacity, Image } from 'react-native';
 import GroupsHeader from './groups-header';
 import GroupCard from '../group/group-card';
+import { DataAccess } from '../../utilities/data-access';
 import { StubGroupsData, GroupsModel } from '../../models/groups-model';
 import globalStyles from '../../styles/app-style';
+
 export default class GroupsComponent extends React.Component {
     static navigationOptions = {
         headerStyle: globalStyles.header,
         headerTitleStyle: globalStyles.headerTitle,
         title: 'GLORIOUS INDIA'
     };
-
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -20,12 +22,16 @@ export default class GroupsComponent extends React.Component {
             groups: [
                 { title: 'GROUP A', route: 'group' },
                 { title: 'GROUP B', route: 'group' }]
-        }
+        };
     }
 
     componentDidMount() {
-        let _stubGroupsData = new StubGroupsData();
-        let _groupsData = _stubGroupsData.getGroupsModel();
+        let _da = new DataAccess();
+        let _groupsData = _da.GetScreensData();
+        //console.log(_groupsData);
+        //let _stubGroupsData = new StubGroupsData();
+        //console.log(_stubGroupsData.getGroupsModel());
+        //let _groupsData = _stubGroupsData.getGroupsModel();
         if (_groupsData.title) {
             this.setState({ groupsData: _groupsData, isGroupsDataFetched: true }, () => {
                 this.CreateGroupListView();

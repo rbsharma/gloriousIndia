@@ -1,0 +1,39 @@
+{
+  "screens": [
+    {
+      "id": "0",
+      "title": "GLORIOUS INDIA",
+      "description": "This application intends to spread awareness about positives related to INDIA. New sections will be added periodically for a better understanding of this extraordinary country. Click on any section for further details!!",
+      "groups": [
+        {
+          "id": "0",
+          "title": "Freedom Fighters",
+          "description": "Our Indian men & women faced a lot of problems by British Government & Dutch people. After a united struggle of our freedom fighters only now we can enjoy our freedom living in India. We should remember each one sacrifice their lives for our current free life. Salute to them! Here is some of the major freedom fighters in India did a major contribute to our nation.",
+          "entities": [
+            {
+              "id": "0",
+              "title": "SUBHASH CHANDRA BOSE",
+              "dob": "Jan 23, 1897",
+              "dod": "Aug 18, 1945",
+              "imageUrl": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose#/media/File:Netaji_Subhas_Chandra_Bose.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose",
+              "alias": "Netaji",
+              "organizations": [
+                "Indian National Army",
+                "Congress"
+              ],
+              "movement": "Azad Hind",
+              "description": "One of the greatest patriots of Mother India. He was strongly influenced by Swami Vivekananda’s teaching and was known for his patriotic zeal as a student. He joined the Indian National Congress, and also elected as the president of the party.",
+              "quotes": [
+                "One individual may die for an idea, but that idea will, after his death, incarnate himself in a thousand lives.",
+                "No real change in history has ever been achieved by discussions.",
+                "Give me your blood and I will give you freedom",
+                "Freedom is not given, it is taken."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
