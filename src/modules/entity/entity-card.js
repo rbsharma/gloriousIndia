@@ -17,7 +17,7 @@ export default class EntityCardComponent extends React.Component {
                     <Text style={styles.descriptionText}>{this.props.val.title}</Text>
                 </View>
                 <View style={styles.cardRight}>
-                    <Image style={styles.circleImage} source={Images.face} />
+                    <Image style={styles.circleImage} source={{uri : this.props.val.imageUrl}} />
                 </View>
             </View>
         );

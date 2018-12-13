@@ -16,7 +16,14 @@ export class EntityModel {
     id: string = '';
     title: string = '';
     dob: string = '';
-    doe: string = '';
+    dod: string = '';
+    imageUrl: string = '';
+    readMoreUrl: string = '';
+    alias: string = '';
+    organizations: [string] = [];
+    movement: string = '';
+    description: string = '';
+    quotes: [string] = [];
 }
 
 export class StubGroupsData {

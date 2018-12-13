@@ -15,7 +15,7 @@
               "title": "SUBHASH CHANDRA BOSE",
               "dob": "Jan 23, 1897",
               "dod": "Aug 18, 1945",
-              "imageUrl": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose#/media/File:Netaji_Subhas_Chandra_Bose.jpg",
+              "imageUrl": "https://www.culturalindia.net/iliimages/Netaji-Subhash-Chandra-Bose-ili-26-ogimg.jpg",
               "readMoreUrl": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose",
               "alias": "Netaji",
               "organizations": [
@@ -25,10 +25,77 @@
               "movement": "Azad Hind",
               "description": "One of the greatest patriots of Mother India. He was strongly influenced by Swami Vivekananda’s teaching and was known for his patriotic zeal as a student. He joined the Indian National Congress, and also elected as the president of the party.",
               "quotes": [
+                "Give me your blood and I will give you freedom",
                 "One individual may die for an idea, but that idea will, after his death, incarnate himself in a thousand lives.",
                 "No real change in history has ever been achieved by discussions.",
-                "Give me your blood and I will give you freedom",
                 "Freedom is not given, it is taken."
+              ]
+            },
+            {
+              "id": "1",
+              "title": "Bhagat Singh",
+              "dob": "Sep 28, 1907",
+              "dod": "March 23, 1931",
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bhagat_Singh_1929_140x190.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Bhagat_Singh",
+              "alias": "Sahid-e-Azam",
+              "organizations": [ "Naujawan Bharat Sabha", "Hindustan Socialist", " Republican Association", "Kirti Kisan Party" ],
+              "movement": "Indian Independence movement",
+              "description": "Bhagat Singh was an Indian nationalist considered to be one of the most influential revolutionaries of the Indian independence movement. He is often referred to as Shaheed Bhagat Singh, the word Shaheed meaning martyr in a number of Indian languages.",
+              "quotes": [
+                "Zindgi to apne damm par hi jiyi jati hey..dusro k kandhe par tohh shirf janaje uthaye jate hey.",
+                "Lovers, Lunatics and poets are made of same stuff.",
+                "I am a man and all that affects mankind concerns me."
+              ]
+            },
+            {
+              "id": "2",
+              "title": "Lala Lajpat Rai",
+              "dob": "28 January 1865",
+              "dod": "17 November 1928",
+              "imageUrl": "https://www.newsbugz.com/wp-content/uploads/2018/05/Lala-Lajpat-Rai-e1527061311402.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Lala_Lajpat_Rai",
+              "alias": "Punjab Kesari",
+              "organizations": [ "Indian National Congress", "Hindu Mahasabha" ],
+              "movement": "Indian Independence movement",
+              "description": "Lala Lajpat Rai, was an Indian Punjabi author and politician who is chiefly remembered as a leader in the Indian Independence movement. He was popularly known as Punjab Kesari meaning The Lion of Punjab also known as Sher-E-Punjab in Punjabi.",
+              "quotes": [
+                "The shots that hit me are the last nails to the coffin of british rule in India.",
+                "Since the cruel killing of cows and other animal have commenced, I have anxiety for the future generation."
+              ]
+            },
+            {
+              "id": "3",
+              "title": "Chandra Shekhar Azad",
+              "dob": "July 23, 1906",
+              "dod": "February 27, 1931",
+              "imageUrl": "https://www.oneindia.com/img/2017/08/chandrashekhar-azad-01-1501586443.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Chandra_Shekhar_Azad",
+              "alias": "Azad",
+              "organizations": [ "Hindustan Socialist Republican Association" ],
+              "movement": "Indian Independence movement",
+              "description": "A daring freedom fighter and a fearless revolutionary, Chandra Shekhar was born on 23 July 1906 in Bhavra, Madhya Pradesh. Involved in incidents such as Kakori Train Robbery, assembly bomb incident and the shooting of Saunders at Lahore, to avenge the killing of Lala Lajpat Rai, he was the face of revolutionary India.",
+              "quotes": [
+                "If yet your blood does not rage, then it is water that flows in your veins. For what is the flush of youth, if it is not of service to the motherland.",
+                "We will face the bullets of the enemies, we are free and will remain free.",
+                "A Plane is always safe on the ground but it is not made for that, Always take some meaningful risks in life to achieve great heights."
+              ]
+            },
+            {
+              "id": "4",
+              "title": "Ashfaqulla Khan",
+              "dob": "October 22, 1900",
+              "dod": "December 19, 1927",
+              "imageUrl": "http://www.towardsfreedom.in/site/gallery_images/67_gai_o.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Ashfaqulla_Khan",
+              "alias": "Ashfaq Ulla Khan",
+              "organizations": [ "Hindustan Socialist Republican Association" ],
+              "movement": "Indian freedom fighter",
+              "description": "Ashfaqulla Khan was a freedom fighter in the Indian independence movement who had given away his life along with Ram Prasad Bismil. Bismil and Ashfaq. Ashfaq used to write poetry with the pen name of 'Hasrat'. Ashfaqulla Khan was the first Indian Muslim who was hanged in a conspiracy against British Raj in the twentieth century.",
+              "quotes": [
+                "Khoon se khelenge Holi gar Vatan mushkil main hai",
+                "There is no Dream, and if there is, there is only one to see you my children struggling for the same and for which I am expected to be finished",
+                "Weep not children, weep not elders; I am immortal!"
               ]
             }
           ]
