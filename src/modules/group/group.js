@@ -50,7 +50,7 @@ export default class GroupComponent extends React.Component {
                         style={[styles.entityCard, { backgroundColor: this.state.colorTheme }]}
                         onPress={() => {
                             this.props.navigation.navigate('entity',
-                                { entity: val, title: val.title })
+                                { entityData: val, title: val.title, colorTheme: this.state.colorTheme })
                         }}>
                         <EntityCard keyval={key} val={val} />
                     </TouchableOpacity>

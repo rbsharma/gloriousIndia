@@ -14,10 +14,10 @@ export default class EntityCardComponent extends React.Component {
         return (
             <View style={styles.container} key={this.props.keyval}>
                 <View style={styles.cardLeft}>
-                    <Text style={styles.descriptionText}>{this.props.val.title}</Text>
+                    <Text style={styles.descriptionText}>{this.props.val.title.toUpperCase()}</Text>
                 </View>
                 <View style={styles.cardRight}>
-                    <Image style={styles.circleImage} source={{uri : this.props.val.imageUrl}} />
+                    <Image style={styles.circleImage} source={{ uri: this.props.val.imageUrl }} />
                 </View>
             </View>
         );

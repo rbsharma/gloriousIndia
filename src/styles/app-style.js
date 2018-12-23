@@ -60,4 +60,12 @@ export default {
     bgDarkGreen: {
         backgroundColor: '#2e9a5f'
     },
+    colorBlack: { color: '#000' },
+    bold: { fontWeight: '700' },
+    italic: { fontStyle: 'italic' },
+    underline: { textDecorationLine: 'underline' },
+    padding10: { padding: 10 },
+    mt20: {
+        marginTop: 20
+    },
 }

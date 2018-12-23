@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
-export default class EntityDescriptionComponent extends React.Component {
+export default class EntityDetailedComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
