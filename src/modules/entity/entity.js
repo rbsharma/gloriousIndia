@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dimensions, StyleSheet, View, Text, TouchableOpacity, ScrollView, Image, Linking, Button } from 'react-native';
+import { Dimensions, StyleSheet, View, Text, TouchableOpacity, ScrollView, Image, Linking, Button,StatusBar } from 'react-native';
 import globalStyles from '../../styles/app-style';
 import EntityDetailedView from './entity-detailed';
 import { EntityModel } from '../../models/groups-model';
@@ -66,6 +66,11 @@ export default class EntityComponent extends React.Component {
     render() {
         return (
             <View style={styles.container} key={this.props.keyval}>
+                <StatusBar
+                    backgroundColor={this.state.colorTheme}
+                    barStyle="light-content" animated
+                    showHideTransition="slide"
+                />
                 <ScrollView>
                     <View>
                         {/* IMAGE */}

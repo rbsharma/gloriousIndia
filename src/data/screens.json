@@ -3,7 +3,7 @@
     {
       "id": "0",
       "title": "GLORIOUS INDIA",
-      "description": "This application intends to spread awareness about positives related to INDIA. New sections will be added periodically for a better understanding of this extraordinary country. Click on any section for further details!!",
+      "description": "Intent behind glorious india application is spreading awareness about INDIA. New sections will be added periodically for a better understanding of this extraordinary country. Click on any section for further details!!",
       "groups": [
         {
           "id": "0",
@@ -39,7 +39,12 @@
               "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bhagat_Singh_1929_140x190.jpg",
               "readMoreUrl": "https://en.wikipedia.org/wiki/Bhagat_Singh",
               "alias": "Sahid-e-Azam",
-              "organizations": [ "Naujawan Bharat Sabha", "Hindustan Socialist", " Republican Association", "Kirti Kisan Party" ],
+              "organizations": [
+                "Naujawan Bharat Sabha",
+                "Hindustan Socialist",
+                " Republican Association",
+                "Kirti Kisan Party"
+              ],
               "movement": "Indian Independence movement",
               "description": "Bhagat Singh was an Indian nationalist considered to be one of the most influential revolutionaries of the Indian independence movement. He is often referred to as Shaheed Bhagat Singh, the word Shaheed meaning martyr in a number of Indian languages.",
               "quotes": [
@@ -56,7 +61,10 @@
               "imageUrl": "https://www.newsbugz.com/wp-content/uploads/2018/05/Lala-Lajpat-Rai-e1527061311402.jpg",
               "readMoreUrl": "https://en.wikipedia.org/wiki/Lala_Lajpat_Rai",
               "alias": "Punjab Kesari",
-              "organizations": [ "Indian National Congress", "Hindu Mahasabha" ],
+              "organizations": [
+                "Indian National Congress",
+                "Hindu Mahasabha"
+              ],
               "movement": "Indian Independence movement",
               "description": "Lala Lajpat Rai, was an Indian Punjabi author and politician who is chiefly remembered as a leader in the Indian Independence movement. He was popularly known as Punjab Kesari meaning The Lion of Punjab also known as Sher-E-Punjab in Punjabi.",
               "quotes": [
@@ -72,7 +80,9 @@
               "imageUrl": "https://www.oneindia.com/img/2017/08/chandrashekhar-azad-01-1501586443.jpg",
               "readMoreUrl": "https://en.wikipedia.org/wiki/Chandra_Shekhar_Azad",
               "alias": "Azad",
-              "organizations": [ "Hindustan Socialist Republican Association" ],
+              "organizations": [
+                "Hindustan Socialist Republican Association"
+              ],
               "movement": "Indian Independence movement",
               "description": "A daring freedom fighter and a fearless revolutionary, Chandra Shekhar was born on 23 July 1906 in Bhavra, Madhya Pradesh. Involved in incidents such as Kakori Train Robbery, assembly bomb incident and the shooting of Saunders at Lahore, to avenge the killing of Lala Lajpat Rai, he was the face of revolutionary India.",
               "quotes": [
@@ -89,13 +99,106 @@
               "imageUrl": "http://www.towardsfreedom.in/site/gallery_images/67_gai_o.jpg",
               "readMoreUrl": "https://en.wikipedia.org/wiki/Ashfaqulla_Khan",
               "alias": "Ashfaq Ulla Khan",
-              "organizations": [ "Hindustan Socialist Republican Association" ],
+              "organizations": [
+                "Hindustan Socialist Republican Association"
+              ],
               "movement": "Indian freedom fighter",
               "description": "Ashfaqulla Khan was a freedom fighter in the Indian independence movement who had given away his life along with Ram Prasad Bismil. Bismil and Ashfaq. Ashfaq used to write poetry with the pen name of 'Hasrat'. Ashfaqulla Khan was the first Indian Muslim who was hanged in a conspiracy against British Raj in the twentieth century.",
               "quotes": [
                 "Khoon se khelenge Holi gar Vatan mushkil main hai",
                 "There is no Dream, and if there is, there is only one to see you my children struggling for the same and for which I am expected to be finished",
                 "Weep not children, weep not elders; I am immortal!"
+              ]
+            },
+            {
+              "id": "5",
+              "title": "Abul Kalam Azad",
+              "dob": "November 11, 1888",
+              "dod": "February 22, 1958",
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Abul_Kalam_Azad_1.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Abul_Kalam_Azad",
+              "alias": "Maulana Azad",
+              "organizations": [
+                "Indian National Congress"
+              ],
+              "movement": "Indian freedom fighter",
+              "description": "Maulana Azad was a noted poet, writer and journalist and a traveller. He travelled countries like Afghanistan, Egypt, Iran, Syria and Turkey. He was well known because of his adopted pen name Azad(Free). There was great indulgence by him in opposing the partition on Bengal in 1905. His published books critising Britishers created a sense of freedom movement in many Indian hearts.",
+              "quotes": [
+                "Slavery is worst even if it bears beautiful names",
+                "Many people plant trees but few of them get fruit of it",
+                "Education imparted by heart can bring revolution in the society"
+              ]
+            },
+            {
+              "id": "6",
+              "title": "Mahadevi Verma",
+              "dob": "March 26, 1907",
+              "dod": "September 11, 1987",
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/MahadeviVarmaPic.png",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Mahadevi_Varma",
+              "alias": "Modern Meera",
+              "organizations": [],
+              "movement": "Chhayavaad",
+              "description": "Mahadevi verma was a notable hindi writer. Her notable works include Yama, Mera Parivaar and Path ke saathi. She immensly contributed in Chhayavaad movement. Her works also instilled need of freedom movement through indian men and women.",
+              "quotes": [
+                "Tum mujhme priye, fir parichay kya",
+                "Ve muskate fool nhi jinhe aata h murjhana, Ve taaro k deep nhi jinhe aata h bujh jaana."
+              ]
+            },
+            {
+              "id": "7",
+              "title": "Mangal Pandey",
+              "dob": "July 19, 1827",
+              "dod": "April 8, 1857",
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mangal_Pandey_1984_stamp_of_India.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Mangal_Pandey",
+              "alias": "The man who knew no fear",
+              "organizations": [
+                "Bengal Native Infantry",
+                ""
+              ],
+              "movement": "Indian freedom fighter",
+              "description": "Mangal Pandey, the man who knew no fear, was one of the very first freedom fighters of India. He is also one of the most known freedom fighter personlaities in India. The fight for freedom was ignited primarily by Mangal pandey in meerut circa 1857 when he went against British Army for using rifle that carried cow fat greased cartridge. Many movies are made on him which ignites patriotism in every Indian till date.",
+              "quotes": [
+                "Aaj tak aapne hamari wafadaari dekhi h, ab krodh dekhiye",
+                "This is the fight for freedom, the freedom from yesterday.. for tomorrow",
+                "Main hoon Hindustan"
+              ]
+            },
+            {
+              "id": "8",
+              "title": "Basanti Devi",
+              "dob": "March 23, 1880",
+              "dod": "1974",
+              "imageUrl": "https://www.basantidevicollege.edu.in/Images/Basanti_devi.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Basanti_Devi",
+              "alias": "Basanti Devi",
+              "organizations": [
+                "Indian National Congress",
+                "Naari karma mandir"
+              ],
+              "movement": "Khilafat Movement",
+              "description": "Basanti devi was born at diwan's house and from early age took participation in various freedom movements like Khilafat movement | Non-cooperation Movement | Civil disobedience movement etc. She took charge of publishing weekly publication Bangalar Katha ( The story of bengal ). Subhash chandra bose highly respected her and considered her to be his mother.",
+              "quotes": []
+            },
+            {
+              "id": "9",
+              "title": "Vallabhbhai Jhaverbhai Patel",
+              "dob": "October 31, 1875",
+              "dod": "December 15, 1950",
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sardar_patel_%28cropped%29.jpg",
+              "readMoreUrl": "https://en.wikipedia.org/wiki/Vallabhbhai_Patel",
+              "alias": "Sardar Patel",
+              "organizations": [
+                "Indian National Congress"
+              ],
+              "movement": "Indian freedom fighter",
+              "description": "Sardar Patel was first deputy prime minister of free India. His greatest achievement is considered of convincing 565 princely states to merge and form a united India. For this he was also termed as Iron man of India. The way he led people for freedom fight, people termed him as Sardar(Leader). If not him then India may have been nothing but 100's of small princely states fighting for each others land.",
+              "quotes": [
+                "My only desire is that India should be a god producer and no one should be hungry, shedding tears for food in the country",
+                "There is something unique in this soil, which despite many obstacles has always remained the abode of great souls",
+                "It is in my nature to be a friend of the friendless",
+                "Manpower without unity is not a strength unless it is harmonized and united properly, then it becomes a spiritual power"
               ]
             }
           ]

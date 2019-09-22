@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView, StatusBar } from 'react-native';
 
 import GroupHeader from './group-header';
 import EntityCard from '../entity/entity-card';
@@ -63,6 +63,13 @@ export default class GroupComponent extends React.Component {
     render() {
         return (
             <View style={styles.container}>
+                <View>
+                    <StatusBar
+                        backgroundColor={this.state.colorTheme}
+                        barStyle="default"
+                        animated showHideTransition="slide"
+                    />
+                </View>
                 <ScrollView>
                     <View style={[globalStyles.descriptionContainer,
                     { backgroundColor: this.state.colorTheme }]}>

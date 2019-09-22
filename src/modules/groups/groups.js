@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, ScrollView, View, Text, TouchableOpacity, Image, StatusBar } from 'react-native';
 import GroupsHeader from './groups-header';
 import GroupCard from '../group/group-card';
 import { DataAccess } from '../../utilities/data-access';
@@ -12,10 +12,11 @@ export default class GroupsComponent extends React.Component {
         headerTitleStyle: globalStyles.headerTitle,
         title: 'GLORIOUS INDIA'
     };
-    
+
     constructor(props) {
         super(props);
         this.state = {
+            displayDescription: true,
             isGroupsDataFetched: false,
             groupsData: new GroupsModel(),
             groupsListView: null,
@@ -68,13 +69,28 @@ export default class GroupsComponent extends React.Component {
         }
     }
 
+    ToggleDescription() {
+        this.setState({ displayDescription: false });
+    }
+
     render() {
         return (
             <View style={styles.container}>
+                <View>
+                    <StatusBar
+                        backgroundColor={globalStyles.header.backgroundColor}
+                        barStyle="light-content" animated
+                        showHideTransition="slide"
+                    />
+                </View>
                 <ScrollView>
-                    <View style={globalStyles.descriptionContainer}>
-                        <GroupsHeader val={this.state.groupsData} />
-                    </View>
+                    {this.state.displayDescription &&
+                        <View style={globalStyles.descriptionContainer}>
+                            <GroupsHeader val={this.state.groupsData} />
+                            {/* <TouchableOpacity onPress={() => { this.ToggleDescription() }} >
+                                <Text>HIDE</Text>
+                            </TouchableOpacity> */}
+                        </View>}
                     <View style={styles.groupsContainer}>
                         {this.state.groupsListView ? this.state.groupsListView : <Text>'Loading...'</Text>}
                     </View>
